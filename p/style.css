@@ -1,0 +1,69 @@
+#ourheadline{
+color:red;
+background-color:blue;
+border-width: 20px;
+border-radius: 20px 0px 20px 0px;
+}
+#button{color:white;
+background-color:green;
+font-style: bold;
+width:100px;
+height:50px;}
+.bc{background-color:green;
+	opacity: 0.5;
+font-face:arial;
+font-size:30px;
+border-radius: 10px 4px 10px 0px;
+border-radius: 5px;}
+
+#our-list li{
+	text-decoration: none;
+	font-style: bold;
+	list-style: none;
+	float: left;
+	display: inline-block;
+	width: 300px;
+}
+#our-list li:hover{
+cursor: pointer;
+color:blue;
+}
+#img{display: none;}
+#exam{
+	background-color: red;
+	color: white;
+	font-style: bold;
+}
+.eXample{
+	background-color: blue;
+	width: 100px;
+	height: 70px;
+	font-style: italic;
+}
+.para{
+
+	width: 350px;
+	display: inline-flex;
+	border-color: red;
+	text-align: justify;
+	border-style: solid;
+	cursor: pointer;
+
+}
+.a{
+	border-bottom: red;
+	border-width: 10px;
+	border-color: red;
+	border-spacing: 12px;
+	border-radius: 5px 5px 6px 7px;
+	background-color: green;
+	border-style: solid;
+}
+.b{
+	font-style: italic;
+	background-color: green;
+	border-top: 12px;
+	border-style: dotted;
+	border-width: 15px;
+	border-color: black;
+}

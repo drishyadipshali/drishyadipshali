@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>drishya</title>
+</head><link rel="favicon icon" href="p/3.png">
+<style type="text/css">
+	button{
+		width: 100px;
+		height: 200px;
+		color: white;
+		background-color: red;
+	}
+	#pa{display: none;
+		cursor: pointer;}
+		#hi{
+			color: green;
+			cursor: progress;
+		}
+		.image{
+			position: absolute;
+			top:400;
+			width: 100%;
+			height: 100%;
+		}
+		.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 75%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  color: red;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+</style>
+<body>
+	
+<button id="button" onclick="pressIt()"> press it</button>
+<p id="pa" onclick="touchIt()"> where the mind is broken into many pieces there is gap between 
+into tow dfsdfkl</p><p id="hi">this is another paragraph</p>
+<p id="rajesh"> where the mind is broken into many pieces ther eis gap between into two words </p>
+<p id="dipesh"> this paragraph for dipesh </p>
+<p id="kiran"> This id is for kiran </p>
+<img src="p/1.jpg" width="700px" height="400px" class="image a" onclick="iMage()">
+<img src="p/2.jpg" width="700px" height="400px" class="image b" onclick="iMage()">
+<img src="p/3.png" width="700px" height="400px" class="image c" onclick="iMage()">
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)">1/2</span> 
+  <span class="dot" onclick="currentSlide(2)">2/3</span> 
+  <span class="dot" onclick="currentSlide(3)">3/3</span> 
+</div>
+<script type="text/javascript" src="script.js"></script>
+
+</body></html>

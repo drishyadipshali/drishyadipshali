@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="tarika.css"><link rel="shortcut icon" href="logo.jpg">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+<hr style=bold><div id="header"></div>
+<img src="image/logo1.jpg" class="first" />
+<h1 align=center id="h1"> Welcome To You All In My website </h1><br />
+<table id="table" align= right><tr><td><nav id="primary_nav_wrap" >
+<ul>
+  <li class="current-menu-item"><a href="index.html">Home</a></li>
+  <li><a href="#">gallery</a>
+    <ul>
+      <li><a href="photo.html">photo</a></li>
+      <li><a href="video.html">video</a></li>
+      <li><a href="ebook.html">ebook</a></li>
+          </ul>
+  </li>
+  <li><a href="photo.html">Photo</a>
+    
+  </li>
+  <li><a href="video.html">Video</a>
+    
+  </li>
+  <li><a href="ebook.html">Ebook</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">about me</a></li>
+  
+</ul>
+</nav></td></tr></table>
+<br>
+
+
+<p style="color:green;">Our contributors for drishyadipshali.com</p>
+<br>
+
+<div class="row" style="margin-left:100px;">
+  <div class="column">
+    <div class="card">
+      <img src="image/2.jpg" alt="Drishya Dipshali" style="width:100%">
+      <div class="container">
+        <h2>Drishya Dipshali</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Drishya Dipshali is CEO of drishyadipshlai.com </p>
+        <p>info@drishyadipshali.com</p>
+        <p><button class="button" onclick=sayHello()>Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="image/kiran.jpg" alt="kiran Dipshali" style="width:45%">
+      <div class="container">
+        <h2>Kiran Dipshali</h2>
+        <p class="title">Art Director</p>
+        <p>Kiran Dipshali is co-founder of drishyadipshali.com.</p>
+        <p>dipshaliboys@gmail.com</p>
+        <p><button class="button" onclick=sayHello()>Contact</button></p>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+<script src="script.js"></script>
+</body>
+</html>
